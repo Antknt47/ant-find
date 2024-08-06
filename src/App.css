@@ -1,0 +1,36 @@
+/* src/app.css */
+
+:root {
+  --text: #ebeaea;
+  --background: #201e1d;
+  --accent1: #676f6e;
+  --accent2: #282625;
+  --accent3: #8a8c93;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+}
+
+a {
+  color: var(--accent1);
+}
+
+a:hover {
+  color: var(--accent1);
+}
+
+button {
+  background-color: var(--accent2);
+  border-color: var(--accent3);
+  color: var(--text);
+}
+
+.outline-text {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 700; /* 粗体以确保描边效果明显 */
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text); /* 白色描边 */
+  text-align: center;
+}
